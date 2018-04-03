@@ -1,0 +1,46 @@
+/*
+ * Colors
+ */
+$white = #fff
+$gray-light = #ccc
+$green = #4c994a
+$green-darker = rgba(darken($green, 80%), 0.5)
+
+
+
+/*
+ * App
+ */
+#header
+	padding: 4em 2em
+	display: flex
+	justify-content: center
+	align-items: center
+
+	&-img
+		border-radius: 100%
+		width: 150px
+		height: 150px
+		overflow: hidden
+		box-shadow: 0 0 50px $green-darker
+
+		img
+			max-height: 130%
+			margin-left: -30px
+
+	&-content
+		margin: 0 2em
+		padding-bottom: 1em
+
+	&-title
+		color: $white
+		font-size: 3.5em
+		font-family: "Lobster"
+		letter-spacing: .05em
+
+	&-subtitle
+		color: $white
+		font-size: 2.5em
+		font-weight: 400
+		font-family: "Amatic SC"
+		letter-spacing: .05em
